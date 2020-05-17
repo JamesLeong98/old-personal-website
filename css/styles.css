@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-image: url("https://www.transparenttextures.com/patterns/ag-square.png")
+  background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
 }
 
 a, .fab {
@@ -87,11 +87,17 @@ hr {
 /* Title Section */
 #title {
   width: 100%;
-  background: url("../images/home/stones.JPG") top right;
+  background: url("../images/home/stones.JPG");
   background-size: cover;
   text-align: center;
   background-attachment: fixed;
   color: #eee;
+}
+
+@media only screen and (max-width: 768px) {
+  #title {
+    background-attachment: scroll;
+  }
 }
 
 #title .container-fluid {
@@ -146,14 +152,13 @@ hr {
 }
 
 /* Gallery Section */
+#gallery .section-title {
+  padding-bottom: 30px;
+
+}
 .gallery-box {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.9);
-  margin: 2%;
-}
-
-.container.gallery-container {
-  min-height: 100vh;
-  padding: 15px;
+  margin: 0 2% 2%;
 }
 
 .tz-gallery {
