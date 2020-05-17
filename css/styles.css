@@ -226,6 +226,12 @@ hr {
   margin: 5% 0 3%;
 }
 
+@media only screen and (max-width: 768px) {
+  #footer {
+    margin: 20% 0 10%;
+  }
+}
+
 .footer-icon {
   margin: 0 1% 1.5%;
 }
