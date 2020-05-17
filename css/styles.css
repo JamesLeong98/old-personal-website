@@ -100,13 +100,6 @@ hr {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-@media only screen and (max-width: 768px) {
-  #title .container-fluid {
-    height: 30vh;
-    background-position: center;
-  }
-}
-
 #title h1 {
   font-family: "Sacramento";
   font-size: 120px;
@@ -141,9 +134,15 @@ hr {
 }
 
 .description {
-  padding: 0% 32%;
+  padding: 0 32%;
   text-align: center;
   margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .description {
+    padding: 0 10%;
+  }
 }
 
 /* Gallery Section */
