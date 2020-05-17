@@ -112,6 +112,12 @@ hr {
   padding: 20% 0 20px;
 }
 
+@media only screen and (max-width: 768px) {
+  #title h1 {
+    padding: 40% 0 0;
+  }
+}
+
 #title h2 {
   font-family: "Raleway";
   text-transform: uppercase;
