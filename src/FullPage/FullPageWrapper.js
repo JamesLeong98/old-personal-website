@@ -8,7 +8,7 @@ import Contact from "../Sections/Contact";
 import Resume from "../Sections/Resume";
 import Projects from "../Sections/Projects";
 import ParticleBackground from "../Sections/components/ParticleBackground";
-import Fade from "react-reveal/Fade";
+import { Fade, Slide, Bounce } from "react-reveal";
 
 class FullPageWrapper extends React.Component {
 
@@ -27,11 +27,15 @@ class FullPageWrapper extends React.Component {
           return (
             <div id="fullpage-wrapper">
               <div className="section home-section">
-                <Fade duration={3000}>
-                  <img className={"ufo"} src={"https://res.cloudinary.com/df95voyec/image/upload/v1598120099/Personal%20Website/Pngtree_ufo_ufo_planet_alien_3951725_smawqn.png"}/>
-                  <img className={"planet1"} src={"https://res.cloudinary.com/df95voyec/image/upload/v1598121068/Personal%20Website/Pngtree_planet_universe_hand-painted_planet_cartoon_3906298_eujwe7.png"}/>
-                  <Home/>
-                </Fade>
+                  <Bounce bottom duration={2000}>
+                    <img className={"planet1"} src={"https://res.cloudinary.com/df95voyec/image/upload/v1598121068/Personal%20Website/Pngtree_planet_universe_hand-painted_planet_cartoon_3906298_eujwe7.png"}/>
+                  </Bounce>
+                  <Bounce left duration={2000}>
+                      <img className={"ufo"} src={"https://res.cloudinary.com/df95voyec/image/upload/v1598120099/Personal%20Website/Pngtree_ufo_ufo_planet_alien_3951725_smawqn.png"}/>
+                  </Bounce>
+                  <Fade duration={3000}>
+                      <Home/>
+                  </Fade>
               </div>
               <div className="section about-section">
                 <AboutMe/>
@@ -41,9 +45,9 @@ class FullPageWrapper extends React.Component {
                 <Resume/>
               </div>
               <div className="section projects-section">
-                <Fade duration={0}>
+                <Slide left duration={2000}>
                   <img className={"planet2"} src={"https://res.cloudinary.com/df95voyec/image/upload/v1598151247/Personal%20Website/Pngtree_cartoon_cartoon_stars_cartoon_planet_3919963_s4fbpu.png"}/>
-                </Fade>
+                </Slide>
                 <Projects/>
               </div>
               <div className="section gallery-section">
