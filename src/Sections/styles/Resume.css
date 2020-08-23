@@ -1,0 +1,65 @@
+.resume-main-title {
+    margin-bottom: 30px;
+}
+
+.resume-titles {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.resume-content {
+    text-align: left;
+    padding: 10px;
+}
+
+.resume-content a{
+    color: inherit;
+    text-decoration: underline;
+}
+
+.MuiSvgIcon-root.resume-icon{
+    font-size: 40px;
+    margin-left: 10px;
+    color: #fbd46d;
+}
+
+.resume-box {
+    padding: 0;
+}
+
+.education-box{
+    background-color: rgba(256, 256, 256, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    height: 100%;
+    margin: 10px 10px 10px 0;
+}
+
+.experience-box{
+    background-color: rgba(256, 256, 256, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    height: 100%;
+    margin: 10px 0 10px 10px;
+}
+
+.tools-box{
+    background-color: rgba(256, 256, 256, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    height: 100%;
+    margin: 28px 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .resume-box{
+        margin: 15px 0;
+    }
+    .education-box, .experience-box, .tools-box{
+        margin: 0
+    }
+}
+
+.education-box:hover, .experience-box:hover, .tools-box:hover{
+    background-color: rgba(256, 256, 256, 0.3);
+}

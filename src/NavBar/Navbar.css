@@ -1,0 +1,24 @@
+.navbar-menu {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-menu {
+        visibility: hidden;
+    }
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 0 13px;
+}
+
+.navbar-menu a.active {
+    font-weight: bold;
+    color: #fbd46d;
+}

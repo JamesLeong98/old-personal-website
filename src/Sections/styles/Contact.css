@@ -1,0 +1,9 @@
+.MuiSvgIcon-root.contact-icon {
+    color: white;
+    font-size: 80px;
+    margin: 40px 40px 0;
+}
+
+.contact-icon:hover {
+    color: #fbd46d;
+}

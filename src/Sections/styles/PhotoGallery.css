@@ -1,0 +1,12 @@
+.react-photo-gallery--gallery img{
+    filter: grayscale(100%);
+}
+
+.react-photo-gallery--gallery img:hover{
+    filter: none;
+}
+
+.react-images__view.react-images__view--isModal img{
+    max-height: 700px;
+    max-width: 70%;
+}
