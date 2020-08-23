@@ -28,7 +28,7 @@ function Resume(){
             <span className={"resume-titles"}>Experience</span>
             <BuildOutlinedIcon className={"resume-icon"}/>
             <div className={"resume-content"}>
-              <p><span style={boldStyle}>Software Engineer Volunteer</span>, <a href={"https://www.thelostfoodproject.org/"} target={"_blank"} rel={"noopener noreferrer"}>The Lost Food Project</a> (Aug 2020-Present)</p>
+              <p><span style={boldStyle}>Software Engineer</span>, <a href={"https://www.thelostfoodproject.org/"} target={"_blank"} rel={"noopener noreferrer"}>The Lost Food Project</a> (Aug 2020-Present)</p>
               <p><span style={boldStyle}>Tech Consultant</span>, <a href={"https://www.tamidatduke.org/"} target={"_blank"} rel={"noopener noreferrer"}>Duke TAMID Group</a> (Aug 2019-Present)</p>
               <p><span style={boldStyle}>Software Engineer Intern</span>, Stealth Startup (May-Aug 2020)</p>
             </div>

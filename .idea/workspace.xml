@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c71e4bb-f958-4165-a555-357dc20ff2b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FullPage/FullPageStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/FullPage/FullPageStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sections/styles/Resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/styles/Resume.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
