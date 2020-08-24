@@ -7,6 +7,9 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Resume(){
   const boldStyle = {color:"#fbd46d", fontWeight:"bold"};
+  const noMarginTop = {marginTop:"0"};
+  const noMarginBottom = {marginBottom:"0"}
+
   return(
     <Container className={"main-content"}>
       <h3 className={"resume-main-title"}>{`<Resume/>`}</h3>
@@ -28,9 +31,12 @@ function Resume(){
             <span className={"resume-titles"}>Experience</span>
             <BuildOutlinedIcon className={"resume-icon"}/>
             <div className={"resume-content"}>
-              <p><span style={boldStyle}>Software Engineer</span>, <a href={"https://www.thelostfoodproject.org/"} target={"_blank"} rel={"noopener noreferrer"}>The Lost Food Project</a> (Aug 2020-Present)</p>
-              <p><span style={boldStyle}>Tech Consultant</span>, <a href={"https://www.tamidatduke.org/"} target={"_blank"} rel={"noopener noreferrer"}>Duke TAMID Group</a> (Aug 2019-Present)</p>
-              <p><span style={boldStyle}>Software Engineer Intern</span>, Stealth Startup (May-Aug 2020)</p>
+              <p style={noMarginBottom}><span style={boldStyle}>Software Engineer Intern</span></p>
+              <p style={noMarginTop}>Stealth Startup (May-Aug 2020)</p>
+              <p style={noMarginBottom}><span style={boldStyle}>Tech Consultant</span></p>
+              <p style={noMarginTop}><a href={"https://www.tamidatduke.org/"} target={"_blank"} rel={"noopener noreferrer"}>Duke TAMID Group</a> (Aug 2019-Present)</p>
+              <p style={noMarginBottom}><span style={boldStyle}>Research Intern</span></p>
+              <p style={noMarginTop}><a href={"https://www.infrastructureasia.org/"} target={"_blank"} rel={"noopener noreferrer"}>Infrastructure Asia</a> (Apr 2019-Jun 2019)</p>
             </div>
           </div>
         </Col>
