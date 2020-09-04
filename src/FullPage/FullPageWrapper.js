@@ -13,16 +13,17 @@ import { Fade, Slide, Bounce } from "react-reveal";
 class FullPageWrapper extends React.Component {
 
   render() {
+      const width = window.screen.width
     return (
       <ReactFullpage
         scrollOverflow={true}
         sectionsColor={["#2d4059", "#2d4059", "#2d4059", "#2d4059", "#2d4059", "#2d4059"]}
         menu={"#myMenu"}
         anchors={["Home", "About", "Resume", "Projects", "Gallery", "Contact"]}
-        navigation
+        navigation={width > 767}
         navigationPosition={"right"}
         navigationTooltips={["Home", "About", "Resume", "Projects", "Gallery", "Contact"]}
-        responsiveWidth={769}
+        responsiveWidth={768}
         render={() => {
           return (
             <div id="fullpage-wrapper">

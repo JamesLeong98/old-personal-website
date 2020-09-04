@@ -92,5 +92,7 @@ img.astronaut {
 
     h3 {
         font-size: 4em;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
