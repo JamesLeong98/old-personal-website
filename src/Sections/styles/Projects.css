@@ -1,0 +1,27 @@
+.projects-carousel {
+    margin-top: 5%;
+}
+
+.projects-carousel .fp-tableCell {
+    height: 0 !important;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+img.slide-image {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.projects-carousel h4 {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+.projects-carousel p {
+    margin-top: 0;
+}

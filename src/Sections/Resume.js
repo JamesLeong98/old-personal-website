@@ -21,7 +21,7 @@ function Resume(){
             <div className={"resume-content"}>
               <p><a href={"https://duke.edu/"} target={"_blank"} rel={"noopener noreferrer"}><span style={boldStyle}>Duke University</span></a> (2019 - Present)</p>
               <p><span style={boldStyle}>Major:</span> Computer Science & Economics (B.S.)</p>
-              <p><span style={boldStyle}>Coursework:</span> Data Structures & Algorithms, Discrete Mathematics*, Mobile Programming*, Databases*</p>
+              <p><span style={boldStyle}>Coursework:</span> Data Structures & Algorithms, Databases*, Mobile Programming*, Probability*, Multivariable Calculus</p>
               <p style={{fontSize: "18px"}}>*Taking in Fall 2020</p>
             </div>
           </div>
