@@ -46,7 +46,7 @@ function Resume(){
             <div className={"tools-box"}>
               <span className={"resume-titles"}>Technologies</span>
               <CodeOutlinedIcon className={"resume-icon"}/>
-              <p>Python, Java, Javascript, Golang, React.js, Node.js, HTML, CSS, Git, SQL*, Swift*</p>
+              <p>Python, Java, Javascript, Golang, React.js, Node.js, HTML, CSS, Git, SQL*, Swift*, Flask*</p>
               <p style={{fontSize: "18px"}}>*Currently learning</p>
             </div>
           </Col>
