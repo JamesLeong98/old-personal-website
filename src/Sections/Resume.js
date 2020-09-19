@@ -33,10 +33,10 @@ function Resume(){
             <div className={"resume-content"}>
               <p style={noMarginBottom}><span style={boldStyle}>Software Engineer Intern</span></p>
               <p style={noMarginTop}>Stealth Startup (May-Aug 2020)</p>
+              <p style={noMarginBottom}><span style={boldStyle}>Tech Team Engineer</span></p>
+              <p style={noMarginTop}><a href={"https://hackduke.org/"} target={"_blank"} rel={"noopener noreferrer"}>HackDuke Committee</a> (Sep 2020 - Present)</p>
               <p style={noMarginBottom}><span style={boldStyle}>Tech Consultant</span></p>
-              <p style={noMarginTop}><a href={"https://www.tamidatduke.org/"} target={"_blank"} rel={"noopener noreferrer"}>Duke TAMID Group</a> (Aug 2019-Present)</p>
-              <p style={noMarginBottom}><span style={boldStyle}>Research Intern</span></p>
-              <p style={noMarginTop}><a href={"https://www.infrastructureasia.org/"} target={"_blank"} rel={"noopener noreferrer"}>Infrastructure Asia</a> (Apr 2019-Jun 2019)</p>
+              <p style={noMarginTop}><a href={"https://www.tamidatduke.org/"} target={"_blank"} rel={"noopener noreferrer"}>Duke TAMID Group</a> (Sep 2019-Present)</p>
             </div>
           </div>
         </Col>

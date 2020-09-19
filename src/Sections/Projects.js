@@ -11,6 +11,17 @@ function Projects() {
         <Carousel className={"projects-carousel"} indicators={width < 768} controls={width > 767}>
             <Carousel.Item>
                 <img
+                    className="slide-image vibe"
+                    alt="vibe"
+                    src="https://res.cloudinary.com/df95voyec/image/upload/v1600482928/Personal%20Website/Screen_Shot_2020-09-13_at_7.22.01_PM_sy9brk.png"
+                />
+                <Carousel.Caption>
+                    <a href={"https://github.com/JamesLeong98/Vibe-PennAppsXXI"} target={"_blank"} rel={"noopener noreferrer"}><h4>{`<Vibe/> Mood Playlist Generator`}</h4></a>
+                    <p>Web app designed in React and Flask, leveraging WolframAI, Beautiful Soup and vaderSentiment</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
                     className="slide-image personal-website"
                     alt="personal website"
                     src="https://res.cloudinary.com/df95voyec/image/upload/v1599217845/Personal%20Website/Screen_Shot_2020-09-04_at_6.39.41_PM_shqipz.png"
