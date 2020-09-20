@@ -24,7 +24,7 @@ function Projects() {
                 <img
                     className="slide-image covid-app"
                     alt="covid app"
-                    src="https://res.cloudinary.com/df95voyec/image/upload/v1600515980/Personal%20Website/Screen_Shot_2020-09-19_at_7.40.58_PM_xjzdn1.png"
+                    src="https://res.cloudinary.com/df95voyec/image/upload/v1600569559/Personal%20Website/Screen_Shot_2020-09-20_at_10.38.54_AM_v5alzc.png"
                 />
                 <Carousel.Caption>
                     <a href={"https://github.com/JamesLeong98/covid-app"} target={"_blank"} rel={"noopener noreferrer"}><h4>Covid Info App</h4></a>
