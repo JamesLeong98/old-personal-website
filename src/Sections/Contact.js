@@ -16,7 +16,7 @@ function Contact() {
         <a href={"https://github.com/JamesLeong98"} target={"_blank"} rel={"noopener noreferrer"}>
           <GitHubIcon className={"contact-icon"}></GitHubIcon>
         </a>
-        <a href={"https://www.facebook.com/profile.php?id=1676615677"} target={"_blank"} rel={"noopener noreferrer"}>
+        <a href={"https://www.facebook.com/jameszleong/"} target={"_blank"} rel={"noopener noreferrer"}>
           <FacebookIcon className={"contact-icon"}></FacebookIcon>
         </a>
         <a href={"mailto:james.leong@duke.edu"} target={"_blank"} rel={"noopener noreferrer"}>
