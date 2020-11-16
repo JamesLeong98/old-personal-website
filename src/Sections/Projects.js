@@ -22,6 +22,39 @@ function Projects() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
+                    className="slide-image personal-assistant"
+                    alt="pa-2"
+                    src="https://res.cloudinary.com/df95voyec/image/upload/v1605513379/Personal%20Website/Screen_Shot_2020-11-16_at_2.55.16_AM_mmqkra.png"
+                />
+                <img
+                    className="slide-image personal-assistant img-hide"
+                    alt="pa-1"
+                    src="https://res.cloudinary.com/df95voyec/image/upload/v1605513469/Personal%20Website/Screen_Shot_2020-11-16_at_3.55.37_PM_buuvtz.png"
+                />
+                <img
+                    className="slide-image personal-assistant img-hide"
+                    alt="pa-3"
+                    src="https://res.cloudinary.com/df95voyec/image/upload/v1605513379/Personal%20Website/Screen_Shot_2020-11-16_at_2.55.33_AM_m3dppr.png"
+                />
+                <Carousel.Caption>
+                    <a href={"https://github.com/JamesLeong98/duke-personal-assistant"} target={"_blank"} rel={"noopener noreferrer"}><h4>Duke Assistant</h4></a>
+                    <p>iOS app integrated with Duke curriculum APIs</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="slide-image amazon"
+                    alt="amazon"
+                    src="https://res.cloudinary.com/df95voyec/image/upload/v1605512574/Personal%20Website/Screen_Shot_2020-11-16_at_3.41.28_PM_zdcyti.png"
+                />
+
+                <Carousel.Caption>
+                    <a href={"https://github.com/JamesLeong98/miniamazon-cs316"} target={"_blank"} rel={"noopener noreferrer"}><h4>Amazon Clone Webapp</h4></a>
+                    <p>Full-stack web app built in MERN stack, with user authentication and database fully integrated</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
                     className="slide-image covid-app"
                     alt="covid app"
                     src="https://res.cloudinary.com/df95voyec/image/upload/v1600569559/Personal%20Website/Screen_Shot_2020-09-20_at_10.38.54_AM_v5alzc.png"

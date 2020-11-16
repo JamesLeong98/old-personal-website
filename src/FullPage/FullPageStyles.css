@@ -95,4 +95,8 @@ img.astronaut {
         padding-left: 0;
         padding-right: 0;
     }
+
+    img.img-hide {
+        visibility: hidden;
+    }
 }
