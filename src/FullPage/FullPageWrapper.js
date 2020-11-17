@@ -58,7 +58,6 @@ class FullPageWrapper extends React.Component {
                 <img className={"astronaut"} src={"https://res.cloudinary.com/df95voyec/image/upload/v1598151248/Personal%20Website/Pngtree_astronauts_land_in_space_free_3924830_rkzqvc.png"}/>
                 <Contact/>
               </div>
-              <ParticleBackground/>
             </div>
           );
         }}

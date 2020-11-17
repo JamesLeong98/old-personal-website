@@ -26,6 +26,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8c71e4bb-f958-4165-a555-357dc20ff2b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FullPage/FullPageWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FullPage/FullPageWrapper.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,11 @@
       <workItem from="1600515762826" duration="928000" />
       <workItem from="1600569516288" duration="584000" />
       <workItem from="1605512537931" duration="2024000" />
-      <workItem from="1605519924453" duration="901000" />
+      <workItem from="1605519924453" duration="1582000" />
+      <workItem from="1605526579003" duration="7000" />
+      <workItem from="1605536907900" duration="15000" />
+      <workItem from="1605618037475" duration="409000" />
+      <workItem from="1605618608057" duration="601000" />
     </task>
     <servers />
   </component>
